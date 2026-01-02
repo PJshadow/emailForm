@@ -1,0 +1,79 @@
+/*My custom CSS*/
+
+
+.carousel-item {
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel-caption {
+  padding: 2rem;
+  border-radius: 10px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #001C3E !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #0051b4c2 !important;
+}
+
+.bg-body-tertiary {
+  background-color: #f0610805 !important;
+  /*background-color: #001c3e0a !important;*/
+}
+
+.text-bg-primary{
+  background-color: #F06008 !important;
+}
+
+.btn-primary{
+  background-color: #F06008 !important;
+  border: none !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover{
+  background-color: #f0610880 !important;
+  border: none !important;
+}
+
+.texture-overlay{
+  background-image: url('/images/texture.jpg'); /* sua textura */
+  background-size: contain; /* ajusta o tamanho da textura */
+  background-position: left;
+  opacity: 0.1; /* controla a transparência */
+  pointer-events: none; /* impede que o overlay bloqueie cliques */
+}
+
+#usaimg {
+  position: relative;
+  top: 10px;
+}
+
+#coverage {
+  margin-left: 25px;
+  margin-right: 25px;
+
+}
+@media (min-width: 1271px) {
+  /* Estilos aplicados somente em telas com largura maior que 1271px */
+  #coverage {
+  margin-left: 200px;
+  margin-right: 200px;
+  }
+  #usaimg {
+  position: relative;
+  top: 0px;
+  }
+}
+
